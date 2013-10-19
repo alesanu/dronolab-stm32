@@ -126,7 +126,7 @@ include_directories(
 	${PROJECT_SOURCE_DIR}/platform
 	${PROJECT_SOURCE_DIR}/platform/${PLATFORM})
 
-# Build the periph folder
+# Build the drivers folder
 add_subdirectory(drivers)
 
 # Build the lib folder
@@ -136,7 +136,7 @@ add_subdirectory(lib)
 add_subdirectory(os)
 
 # Build the periph folder
-add_subdirectory(periph)
+ add_subdirectory(periph)
 
 # Build the platform folder
 add_subdirectory(platform/${PLATFORM})
